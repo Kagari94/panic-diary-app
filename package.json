@@ -1,21 +1,32 @@
 {
-  "name": "panic-diary-app",
+  "name": "paniikkipaivakirja",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.22",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/slider": "4.5.6",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "expo": "53.0.22",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.6"
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-modal": "^14.0.0-rc.1",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "latest",
+    "metro": "^0.82.0"
   },
   "private": true
 }
